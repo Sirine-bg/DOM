@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="dom2.css">
+    <title>Shopping cart</title>
+</head>
+<body>
+    <header>
+        <nav >
+            <img class="logo-vco" src="/vco.png" alt="LOGO-VCO">
+            <ul class="navbar">
+                <li>HOME</li>
+                <li>SHOP</li>
+                <li id="panier">
+                    <ion-icon name="cart"></ion-icon>
+                    
+                    PANIER</li>
+            </ul>
+        </nav>        
+    </header>
+
+<h1>SHOPPING CART</h1>  
+<main>
+    <div class="cart-info">
+        <div class="article">
+            <img src="/tote MAKE EARTH COOL AGAIN.jpg" alt="tote bag">
+            <div>
+                <h3> Tote bag</h3>
+                <div class="heart">
+                    <ion-icon name="heart"></ion-icon>                       
+                </div>    
+                <h3 class="price"> 20dt</h3>   
+                <button class="Remove"><ion-icon name="close-circle-outline"></ion-icon> Remove </button>
+                    <div class="quantity-container"> 
+                        <div class="value-button-" ><ion-icon  name="arrow-dropleft"></ion-icon></div> 
+                        <input type="number" class="quantity" name="quantity" value="0" min="0" />
+                        <div class="value-buttonp"  ><ion-icon  name="arrow-dropright"></ion-icon></div>
+                     </div>
+            </div>
+           </div>    
+           <div class="article">
+            <img src="/coussin.jpg" alt="coussin">
+            <div>
+                <h3> Coussin imprimé</h3>
+                <div class="heart">
+                    <ion-icon name="heart"></ion-icon>                       
+                </div> 
+                <h3 class="price"> 20dt</h3>       
+                <button class="Remove"><ion-icon name="close-circle-outline"></ion-icon> Remove </button>
+                    <div class="quantity-container"> 
+                        <div class="value-button-" ><ion-icon  name="arrow-dropleft"></ion-icon></div> 
+                        <input type="number" class="quantity" name="quantity" value="0" min="0" />
+                        <div class="value-buttonp"  ><ion-icon  name="arrow-dropright"></ion-icon></div>
+                    </div>
+        </div>
+         </div>
+        
+            <div class="article">
+            <img src="/jarre magique 10dt.jpg" alt="jarre magique">
+            <div>
+                <h3> Jarre magique orange</h3>
+                <div class="heart">
+                    <ion-icon name="heart"></ion-icon>                       
+                </div>      
+                <h3 class="price"> 10dt</h3>  
+                <button class="Remove"><ion-icon name="close-circle-outline"></ion-icon> Remove </button>
+                <div class="quantity-container"> 
+                        <div class="value-button-" ><ion-icon  name="arrow-dropleft"></ion-icon></div> 
+                        <input type="number" class="quantity" name="quantity" value="0" min="0" />
+                        <div class="value-buttonp"  ><ion-icon  name="arrow-dropright"></ion-icon></div>
+                </div>
+            </div>
+           
+</div>
+   
+<div class="total">
+    <h2> Total (dt)</h2>
+    <h2 id="total"> 0 </h2>
+
+
+</div>
+
+
+
+
+
+
+
+</main>
+
+</header>
+
+    <footer>
+        <h6>© 2021 developped by Sirine Ben Gabsia</h6>
+    </footer>
+   <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  <script src="dom2.js"></script></body>
+</html>

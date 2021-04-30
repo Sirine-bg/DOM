@@ -1,0 +1,73 @@
+header{
+  
+    text-align: center;
+}
+.navbar li{
+    list-style-type: none;
+    color:white;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+.navbar {
+    display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     position: relative;
+    margin-left: 800px;
+}
+nav{
+    position: fixed;
+    background-color:black;
+    font-weight: bold;
+    top: 0;
+    right: 0;
+    left:0;
+    display: flex;
+    z-index: 1;
+}
+.logo-vco{
+    height: 50px;
+   margin-top: 10px;
+}
+#panier {
+    color: rgba(255, 255, 0, 0.555);
+    
+}
+
+input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+
+img{
+    height: 200px; 
+    margin-top: 20px;
+    
+    }
+    .cart-info{
+        display: flex;
+        justify-content: space-around;
+        background-color: navajowhite;
+    width: 800px;
+    margin-left: 300px;
+  
+    }
+.quantity-container{
+    display: flex;
+    padding-top: 10px;
+    margin-left: 50px;
+
+}
+.value-button-{
+    padding-top: 15px;
+}
+.value-buttonp{
+    padding-top: 15px;
+}
+
+.redd{
+    color: red;
+}
+footer{
+text-align: center;}
